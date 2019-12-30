@@ -1,0 +1,39 @@
+{
+  "name": "cincoeditora",
+  "version": "1.0.0",
+  "description": "cincoenditora institucional page",
+  "author": "aranhaagency",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
+    "build": "nuxt build",
+    "build:gh-pages": "DEPLOY_ENV=GH_PAGES nuxt build",
+    "start": "cross-env NODE_ENV=production node server/index.js",
+    "generate": "nuxt generate",
+    "generate:gh-pages": "DEPLOY_ENV=GH_PAGES nuxt generate",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@nuxtjs/google-analytics": "^2.0.2",
+    "@nuxtjs/pwa": "^3.0.0-beta.14",
+    "@nuxtjs/sitemap": "^0.2.2",
+    "blueimp-md5": "^2.12.0",
+    "clone-deep": "^4.0.1",
+    "cross-env": "^5.2.0",
+    "es6-promise": "^4.2.8",
+    "fastify": "^1.13.3",
+    "moment": "^2.24.0",
+    "nuxt": "^2.0.0",
+    "vuex": "^3.1.2",
+    "vuex-persistedstate": "^2.5.4",
+    "webfontloader": "^1.6.28"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^1.0.0",
+    "@vue/test-utils": "^1.0.0-beta.27",
+    "babel-jest": "^24.1.0",
+    "jest": "^24.1.0",
+    "nodemon": "^1.18.9",
+    "vue-jest": "^4.0.0-0"
+  }
+}
