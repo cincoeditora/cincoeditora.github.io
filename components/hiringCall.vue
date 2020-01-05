@@ -1,0 +1,3 @@
+<template>
+    <div class="hr-nag left" style="opacity: 1;"><div class="wrapper" style="opacity: 1; transform: translateY(0px);"><div class="copy"><h2 class="h2">We’re hiring</h2><p>If you work best when you can think, work and create solutions independently, we’d love to hear from you.</p><a href="https://www.notion.so/Working-at-Back-f23a617a97a24b83a6e85e826f475615" class="button big blue">Join us</a></div></div></div>
+</template>

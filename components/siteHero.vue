@@ -1,32 +1,18 @@
 <template>
-  <div>
-        <div class="section-right"></div>
-        <div class="section-left"></div>
-        <div class="box-hero">
-          <Logo />
-          <div class="text-main-hero"></div>
-          <button class="btn btn-blue">Button</button>
-        </div>
-        </div>
-    </div>
+  <section class="hero-index hero centered">
+    <BackgroundHero />
+    <contentHero />
+  </section>
 </template>
-<style>
-  .btn {
-    @apply font-bold py-2 px-4 rounded;
-  }
-  .btn-blue {
-    @apply bg-blue-500 text-white;
-  }
-  .btn-blue:hover {
-    @apply bg-blue-600;
-  }
-</style>
 <script>
-import Logo from '~/components/Logo.vue'
+import BackgroundHero from '~/components/backgroundHero.vue'
+import ContentHero from '~/components/contentHero.vue'
 
 export default {
   components: {
-    Logo,
+    BackgroundHero,
+    ContentHero,
+
   }
 }
 </script>

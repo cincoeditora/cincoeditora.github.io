@@ -1,0 +1,3 @@
+<template>
+    <section class="testimonials"><div class="wrapper"><h2 class="h2 centered">In great company</h2><div class="logos" style="opacity: 1;"><img src="/static/images/logo-soundcloud.svg" alt="SoundCloud" style="opacity: 1; transform: translateY(0px);"><img src="/static/images/logo-remerge.svg" alt="Remerge" style="opacity: 1; transform: translateY(0px);"><img src="/static/images/logo-factory.svg" alt="Factory" style="opacity: 1; transform: translateY(0px);"><img src="/static/images/logo-statista.svg" alt="Statista" style="opacity: 1; transform: translateY(0px);"><img src="/static/images/logo-marleyspoon.svg" alt="Marley Spoon" style="opacity: 0.999797; transform: translateY(-0.00811176px);"></div></div></section>
+</template>
